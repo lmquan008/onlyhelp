@@ -1,0 +1,21 @@
+{
+  "name": "OnlyHelp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angularfire": "^2.0.1",
+    "bootstrap": "^3.3.6",
+    "express": "^3.2.6",
+    "firebase": "^3.0.5",
+    "pug": "^2.0.0-beta3"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0"
+  }
+}
