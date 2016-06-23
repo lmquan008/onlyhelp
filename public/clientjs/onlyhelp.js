@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp',
+var myApp = angular.module('onlyhelp',
   ['ngRoute', 'firebase'])
   .constant('FIREBASE_URL', 'https://angdata77.firebaseIO.com/');
 

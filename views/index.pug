@@ -4,5 +4,23 @@ block scripts
   script(src="clientjs/onlyhelp.js")
 
 block content
-  h1= title
-  p Welcome to #{title}
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#') Only Help
+        #navbar.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='#register') Register
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='../navbar-static-top/') About
+            li
+              a(href='./')
+                | Contact 
+                span.sr-only (current)
